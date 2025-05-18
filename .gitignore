@@ -1,0 +1,79 @@
+### OS 무시 항목 ###
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Python 바이트코드 / 캐시 ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+### 가상환경 디렉토리 ###
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.env
+
+### 빌드/배포 결과물 ###
+build/
+dist/
+.eggs/
+*.egg-info/
+MANIFEST
+*.spec
+*.zip
+*.tar.gz
+*.rar
+
+### 로그 / 임시 파일 ###
+*.log
+*.bak
+*.tmp
+*.swp
+
+### 테스트 리포트 / 커버리지 / 캐시 ###
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.coverage
+.coverage.*
+.ruff_cache/
+cython_debug/
+
+### IDE / 에디터 설정 ###
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+### FastAPI / Flask 특화 ###
+instance/
+.webassets-cache/
+
+### 데이터베이스 파일 (로컬 테스트용) ###
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+
+### 문서 / 노트북 ###
+docs/_build/
+.ipynb_checkpoints/
+
+### 타입 검사 / 정적 분석 도구 ###
+.pytype/
+.pyre/
+
+### 로컬 전용 파일 ###
+*.local
+.pdm.toml
+.pdm-build/
+__pypackages__/
